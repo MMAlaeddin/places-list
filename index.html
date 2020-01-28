@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/jquery.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Fave Places</title>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Where would you like to go?</h1>
+        </div>
+        <form id="places">
+            <label>Enter a country:</label>
+            <input type="text" id="country">
+            <label>Enter a city:</label>
+            <input type="text" id="city">
+            <label>Enter a date:</label>
+            <input type="text" id="date">
+            <label>Enter a food:</label>
+            <input type="text" id="food">
+            <button class="btn-danger" type="submit">Tell me where to go!</button>
+        </form>
+        <h2>Places:</h2>
+        <ul id="places">
+        </ul>
+        <div id="show-contact">
+        <p>Country Name: <span class="country"></span></p>
+        <p>City: <span class="city"></span></p>
+        <p>Date Established: <span class="date"></span></p>
+        <p>Popular Food: <span class="food"></span></p>
+        <div id="buttons">
+        </div>
+            
+        </div>
+    </div>
+</body>
+</html>
